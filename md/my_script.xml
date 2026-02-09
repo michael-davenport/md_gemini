@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="MD_Hello_World" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+    <cue name="Start_Hello_World">
+      <conditions>
+        <check_any>
+          <event_player_created /> <event_cue_signalled cue="md.Setup.GameStart" /> </check_any>
+      </conditions>
+      <actions>
+        <debug_text text="'MOD LOADED: Hello World Script is running!'" />
+
+        <show_help line="'Hello World! The Mission Director is working.'" duration="10s" position="1" />
+        
+        <create_mission cue="Start_Hello_World" name="'My First Mission'" description="'This is a test mission object.'" faction="faction.player" type="missiontype.fight" >
+           <briefing>
+             <objective step="1" action="objective.flyto" text="'Fly around aimlessly'" />
+           </briefing>
+        </create_mission>
+      </actions>
+    </cue>
+  </cues>
+</mdscript>

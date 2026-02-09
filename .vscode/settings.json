@@ -1,0 +1,13 @@
+{
+    "xml.fileAssociations": [
+        {
+            "pattern": "**/md/*.xml",
+            "systemId": "file:///D:/X4Unpack/libraries/md.xsd"
+        },
+        {
+            "pattern": "**/aiscripts/*.xml",
+            "systemId": "file:///D:/X4Unpack/libraries/aiscript.xsd"
+        }
+    ],
+    "xml.validation.schema.enabled": "always"
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="md_hello_world" name="MD Hello World" description="Simple MD Test" author="You" version="100" date="2025-01-14" save="0" enabled="1">
+  <text language="44" name="MD Hello World" description="Simple MD Test" />
+</content>
